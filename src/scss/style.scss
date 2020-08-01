@@ -2,7 +2,102 @@
 @import 'vars';
 @import 'global';
 
-
+// start header
+.header__top-inner{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 122px;
+  @include f700;
+}
+.menu__list{
+  li{
+    display: inline-block;
+    & + li{
+      padding-left: 50px;
+    }
+  }
+}
+.header__box{
+  display: flex;
+}
+.header__bottom{
+  margin-bottom: 78px;
+}
+.header__adress{
+  margin-right: 60px;
+  padding-left: 30px;
+  width: 265px;
+  position: relative;
+  &::before{
+    content: '';
+    position: absolute;
+    background-image: url('../images/icons/adress-icon.svg');
+    width: 30px;
+    height: 30px;
+    left: 0;
+    top: -10px;
+  }
+}
+.user-list{
+  margin-right: 15px;
+  display: flex;
+  align-items: center;
+  li{
+    padding-right: 10px;
+  }
+}
+.basket{
+  position: relative;
+  &__num{
+    position: absolute;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    @include f500;
+    font-size: 10px;
+    line-height: 20px;
+    text-align: center;
+    bottom: -4px;
+    right: -13px;
+    color: #fff;
+    background: $bg-color;
+    border-radius: 50%;
+  }
+}
+.menu-categories{
+  background: $background;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 53px;
+  &__link{
+    transition: all .3s;
+    padding: 15px 0 14px;
+    position: relative;
+    &:hover{
+      color: #000;
+      &::before{
+        width: 100%;
+        right: auto;
+        left: 0;
+      }
+    }
+    &::before{
+      content: '';
+      position: absolute;
+      width: 0;
+      left: 0;
+      bottom: -2px;
+      height: 3px;
+      background: $bg-color;
+      transition: all .3s;
+      right: 0;
+      left: auto;
+    }
+  }
+}
+// end header
 
 
 

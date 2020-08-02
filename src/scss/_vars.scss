@@ -1,5 +1,6 @@
 $bg-color: #1C62CD;
 $background: #F0F0F4;
+$color-text: #C4C4C4;
 
 @mixin f400{
   font-family: 'SFProDisplay-Regular', sans-serif;
@@ -18,5 +19,10 @@ $background: #F0F0F4;
 
 @mixin f700{
   font-family: 'SFProDisplay-Bold', sans-serif;
+  font-weight: 700;
+}
+
+@mixin Barlow7{
+  font-family: 'Barlow', sans-serif;
   font-weight: 700;
 }

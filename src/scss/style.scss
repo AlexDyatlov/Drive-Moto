@@ -101,7 +101,6 @@
 
 // start banner-section
 .banner-section{
-  margin-bottom: 77px;
   &__inner{
     display: flex;
     justify-content: space-between;
@@ -255,8 +254,56 @@
 }
 // end banner-section
 
-
-
+// start search
+.search__tabs{
+  margin-bottom: 25px;
+  &-item{
+    padding: 11px 26px 12px;
+  }
+}
+.search__tabs-item--active{
+  border-radius: 5px;
+  background: $background;
+  @include f700;
+}
+.search__content-item{
+  display: none;
+}
+.search__content-item--active{
+  display: block;
+}
+.search__content{
+  &-form{
+    display: flex;
+  }
+  &-input{
+    background: $background;
+    border-radius: 3px;
+    padding: 5px 20px;
+    border: none;
+    font-size: 16px;
+    line-height: 19px;
+    width: 100%;
+    &::placeholder{
+      color: $grey;
+    }
+  }
+  &-btn{
+    @include f700;
+    border: none;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    border-radius: 3px;
+    padding: 17px 41px;
+    color: #fff;
+    background: $bg-color;
+    margin-left: -3px;
+    cursor: pointer;
+  }
+}
+// end search
 
 
 

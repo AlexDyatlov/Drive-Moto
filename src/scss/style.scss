@@ -619,4 +619,34 @@
 }
 // end footer
 
+// start breadcrumbs хлебные крошки
+.breadcrumbs{
+  margin-bottom: 40px;
+  &__list{
+    &-item{
+      display: inline-block;
+      padding-right: 16px;
+      margin-right: 10px;
+      position: relative;
+      font-size: 15px;
+      line-height: 18px;
+      color: $color-text;
+      &::after{
+        content: '';
+        position: absolute;
+        right: 0;
+        background-image: url('../images/icons/arrow-more.svg');
+        width: 6px;
+        height: 9px;
+        bottom: 6px;
+      }
+      &:last-child::after{
+        display: none;
+      }
+    }
+  }
+}
+
+// end breadcrumbs хлебные крошки
+
 @import 'media';

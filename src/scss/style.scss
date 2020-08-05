@@ -357,11 +357,14 @@
 // end categories
 
 // start products
-.products__title{
-  font-size: 25px;
-  line-height: 30px;
-  @include Barlow7;
-  margin-bottom: 25px;
+.products{
+  margin-bottom: 80px;
+  &__title{
+    font-size: 25px;
+    line-height: 30px;
+    @include Barlow7;
+    margin-bottom: 25px;
+  }
 }
 .product-item__wrapper{
   position: relative;
@@ -520,7 +523,7 @@
 }
 .product__more{
   text-align: center;
-  margin: 35px 0 80px;
+  margin: 35px 0 0;
   &-link{
     font-size: 15px;
     line-height: 18px;
@@ -533,7 +536,11 @@
 }
 // end products
 
-
+// start banner
+  .banner{
+    margin-bottom: 80px;
+  }
+// end banner
 
 
 @import 'media';

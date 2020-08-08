@@ -1146,7 +1146,122 @@
 }
 // end aside
 
-
 // end catalog
+
+// start product-card
+.product-card{
+  margin-bottom: 80px;
+  &__inner{
+    display: flex;
+    justify-content: space-between;
+  }
+  &__content{
+    width: 570px;
+  }
+  &__link{
+    border-bottom: 1px solid $bg-color;
+    font-size: 15px;
+    line-height: 18px;
+    color: $bg-color;
+  }
+  &__title{
+    font-size: 30px;
+    line-height: 36px;
+    @include f700;
+    margin-bottom: 10px;
+  }
+  &__code{
+    font-size: 15px;
+    line-height: 18px;
+    opacity: 0.6;
+    margin-bottom: 22px;
+  }
+  &__buttons{
+    margin-bottom: 50px;
+    a + a{
+      margin-left: 30px;
+    }
+  }
+  &__more{
+    font-size: 14px;
+    line-height: 17px;
+    color: $bg-color;
+    border-bottom: 1px solid $bg-color;
+    margin-bottom: 40px;
+  }
+  &__btn button{
+    font-size: 14px;
+    line-height: 17px;
+    border: none;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    padding: 16px 56px;
+    cursor: pointer;
+    background: $bg-color;
+    color: #fff;
+    border-radius: 3px;
+  }
+  &__list{
+    margin-bottom: 20px;
+  }
+}
+.product-card__tab{
+  font-size: 20px;
+  line-height: 24px;
+  opacity: 0.6;
+  padding-right: 17px;
+  padding-bottom: 5px;
+  margin-bottom: 20px;
+  & + &{
+    padding-left: 17px;
+  }
+}
+.product-card__tab.tab--active{
+  opacity: 1;
+  @include f700;
+  border-bottom: 2px solid $bg-color;
+}
+.product-card__img-box{
+  width: 500px;
+  padding-top: 64px;
+  text-align: center;
+  position: relative;
+  &::before{
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: 0.12em;
+    padding: 13px 25px;
+    border-radius: 3px;
+  }
+}
+.product-card__price-old{
+  font-size: 30px;
+  line-height: 44px;
+  font-family: 'Barlow', sans-serif;
+  background-image: url('../images/icons/old-line.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.6;
+  display: inline-block;
+}
+.product-card__price-new{
+  font-size: 40px;
+  line-height: 48px;
+  margin-bottom: 17px;
+  @include Barlow7;
+}
+.product-card__item{
+  padding: 15px 0 6px;
+  border-bottom: 1px solid rgba(47, 48, 53, .1);
+  display: flex;justify-content: space-between;
+  &-left{
+    padding-right: 15px;
+  }
+  &-right{
+    width: 125px;
+  }
+}
+
+// end product-card
 
 @import 'media';

@@ -61,4 +61,8 @@ $(function(){
     readOnly: true
   });
 
+  $('.menu__btn').on('click', function(){
+    $('.menu-mobile').toggleClass('menu-mobile--active')
+  });
+
 });

@@ -347,8 +347,9 @@
 // start categories
 .categories__inner{
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start;
   flex-wrap: wrap;
+  margin-left: -30px;
 }
 .categories__item{
   margin-bottom: 30px;
@@ -359,6 +360,8 @@
   justify-content: space-between;
   padding: 20px 20px 16px;
   transition: all .3s;
+  flex-basis: calc(33.3333% - 30px);
+  margin-left: 30px;
   &:hover{
     box-shadow: 3px 3px 20px rgba(50, 50, 50, 0.25);
     color: $bg-color;
@@ -1393,5 +1396,15 @@
   justify-content: space-between;
 }
 // end card__tabs
+
+.product-slider .slick-dots{
+  bottom: -30px
+}
+.product-slider .slick-dots button{
+  background-color: $color-text;
+}
+.product-slider .slick-dots .slick-active button{
+  background-color: $bg-color;
+}
 
 @import 'media';

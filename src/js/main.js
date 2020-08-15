@@ -111,4 +111,8 @@ $(function(){
     $(this).toggleClass('footer__dropdown--active');
   });
 
+  $('.aside__btn').on('click', function(){
+    $(this).next().slideToggle();
+  });
+
 });

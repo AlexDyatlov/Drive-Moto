@@ -231,7 +231,7 @@
 
   <div class="breadcrumbs">
     <div class="container">
-      <ul class="breadcrumbs__list">
+      <ul class="breadcrumbs__list mobile-overflow">
         <li class="breadcrumbs__list-item">
           <a href="#">Главная</a>
         </li>
@@ -247,11 +247,13 @@
         Гидроциклы
       </h2>
       <div class="catalog__filter">
-        <div class="catalog__filter-items">
-          <button>Полноприводные</button>
-          <button>от 5000</button>
-          <button>BRP</button>
-          <button>еще</button>
+        <div class="catalog__filter-itemsinner">
+          <div class="catalog__filter-items mobile-overflow">
+            <button>Полноприводные</button>
+            <button>от 5000</button>
+            <button>BRP</button>
+            <button>еще</button>
+          </div>
         </div>
         <div class="catalog__filter-btn">
           <select class="filter-style select-item">
@@ -283,8 +285,11 @@
         </div>
       </div>
       <div class="catalog__inner">
+        <div class="aside__btn">
+          фильтр
+        </div>
         <aside class="catalog__inner-aside aside-filter">
-          <div class="tabs-wrapper">
+          <div class="tabs-wrapper tabs-wrapper--no-scroll">
             <div class="tabs aside-filter__tabs">
               <a class="tab aside-filter__tab tab--active" href="#filter-1">
                 <span>Параметры</span>

@@ -412,14 +412,11 @@
   width: 271px;
   transition: all .3s;
 }
-.product-item__wrapper.product-item__wrapper--list{
-  width: 100%;
-}
 .product-item{
   border: 1px solid #CDCDCD;
   border-radius: 3px;
   text-align: center;
-  padding: 52px 20px 31px;
+  padding: 52px 15px 31px;
   width: 100%;
   transition: all .3s;
   min-height: 400px;
@@ -442,6 +439,7 @@
     padding: 14px 0 25px;
     font-size: 18px;
     line-height: 21px;
+    min-height: 102px;
   }
   &__price{
     font-size: 30px;
@@ -534,6 +532,7 @@
 }
 .product-item__wrapper.product-item__not-available .product-item__title{
   padding-bottom: 13px;
+  min-height: 30px;
 }
 .product-item__wrapper.product-item__not-available .product-item__notify-link{
   display: block;
@@ -777,14 +776,20 @@
   }
   &-list{
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
     flex-wrap: wrap;
+    margin-left: -30px;
   }
 }
 .catalog__inner-list .product-item__wrapper{
+  flex-basis: calc(33.3333% - 30px);
+  margin-left: 30px;
   margin-bottom: 30px;
 }
-
+.product-item__wrapper.product-item__wrapper--list{
+  max-width: 100%;
+  flex-basis: 100%;
+}
 // start pagination ПАГИНАЦИЯ
 .pagination{
   width: 100%;
@@ -1407,4 +1412,7 @@
   background-color: $bg-color;
 }
 
+.aside__btn{
+  display: none;
+}
 @import 'media';

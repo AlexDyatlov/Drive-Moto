@@ -673,6 +673,7 @@
 // start breadcrumbs хлебные крошки
 .breadcrumbs{
   margin-bottom: 40px;
+  margin-top: 40px;
   &__list{
     &-item{
       display: inline-block;
@@ -1411,8 +1412,10 @@
 .product-slider .slick-dots .slick-active button{
   background-color: $bg-color;
 }
-
 .aside__btn{
+  display: none;
+}
+.product-card__btn-mobile{
   display: none;
 }
 @import 'media';

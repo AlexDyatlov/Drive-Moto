@@ -191,6 +191,12 @@
     width: 100%;
     margin-left: 0px;
   }
+  .logo__img{
+    display: none;
+  }
+  .logo__mobile{
+    display: block;
+  }
 }
 @media (max-width: 640px){
   .header__address{
@@ -298,6 +304,7 @@
   }
   .footer__dropdown{
     position: relative;
+    pointer-events: auto;
     &::after{
       position: absolute;
       content: '';
@@ -324,5 +331,8 @@
   }
   .pagination-list__item{
     margin: 0;
+  }
+  .jq-checkbox, .jq-radio {
+    margin: 0 6px 0 0;
   }
 }

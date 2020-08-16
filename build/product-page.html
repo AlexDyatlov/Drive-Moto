@@ -46,8 +46,9 @@
             </li>
           </ul>
         </nav>
-        <a class="logo" href="#">
+        <a class="logo" href="index.html">
           <img class="logo__img" src="images/logo.svg" alt="">
+          <img class="logo__mobile" src="images/logo__mobile.svg" alt="">
         </a>
         <div class="header__box">
           <p class="header__address">
@@ -129,7 +130,7 @@
       </a>
     </li>
     <li class="menu-mobile__item">
-      <a class="menu-mobile__link" href="#">
+      <a class="menu-mobile__link" href="catalog.html">
         <p>Гидроциклы</p>
       </a>
     </li>
@@ -195,7 +196,7 @@
           </a>
         </li>
         <li class="menu-categories__item">
-          <a class="menu-categories__link" href="#">
+          <a class="menu-categories__link" href="catalog.html">
             Гидроциклы
           </a>
         </li>
@@ -234,10 +235,10 @@
       <div class="breadcrumbs__inner">
         <ul class="breadcrumbs__list mobile-overflow">
           <li class="breadcrumbs__list-item">
-            <a href="#">Главная</a>
+            <a href="index.html">Главная</a>
           </li>
           <li class="breadcrumbs__list-item">
-            <a href="#">Гидроциклы</a>
+            <a href="catalog.html">Гидроциклы</a>
           </li>
           <li class="breadcrumbs__list-item">
             <span>Гидроцикл BRP SeaDoo GTI 155hp SE Long Blue Metallic</span>
@@ -339,15 +340,15 @@
         </div>
       </div>
       <div class="tabs-container">
-        <div id="product-card__tabs-1" class="card__tab-content tabs-content">content</div>
-        <div id="product-card__tabs-2" class="card__tab-content tabs-content">content</div>
-        <div id="product-card__tabs-3" class="card__tab-content tabs-content">content</div>
+        <div id="product-card__tabs-1" class="card__tab-content tabs-content">content-1</div>
+        <div id="product-card__tabs-2" class="card__tab-content tabs-content">content-2</div>
+        <div id="product-card__tabs-3" class="card__tab-content tabs-content">content-3</div>
         <div id="product-card__tabs-4" class="card__tab-content tabs-content tabs-content--active">
           <form>
             <div class="card__top-line">
               <label class="card__label-search">
                 Магазин
-                <input class="card__input-search" type="text">
+                <input class="card__input-search" placeholder="|" type="text">
               </label>
               <label class="card__label-pickup">
                 <input class="filter-style" type="radio" name="pickup">
@@ -438,9 +439,9 @@
             </ul>
           </form>
         </div>
-        <div id="product-card__tabs-5" class="card__tab-content tabs-content">content</div>
-        <div id="product-card__tabs-6" class="card__tab-content tabs-content">content</div>
-        <div id="product-card__tabs-7" class="card__tab-content tabs-content">content</div>
+        <div id="product-card__tabs-5" class="card__tab-content tabs-content">content-5</div>
+        <div id="product-card__tabs-6" class="card__tab-content tabs-content">content-6</div>
+        <div id="product-card__tabs-7" class="card__tab-content tabs-content">content-7</div>
       </div>
     </div>
   </section>
@@ -453,16 +454,551 @@
         </h3>
         <div class="tabs-wrapper">
           <div class="tabs products__tabs mobile-overflow">
-            <a class="tab products__tab tab--active" href="#popular-tab-1">запчасти</a>
+            <a class="tab products__tab" href="#popular-tab-1">запчасти</a>
             <a class="tab products__tab" href="#popular-tab-2">моторы</a>
-            <a class="tab products__tab" href="#popular-tab-3">шины</a>
-            <a class="tab products__tab" href="#popular-tab-4">электроника</a>
+            <a class="tab products__tab tab--active" href="#popular-tab-4">электроника</a>
             <a class="tab products__tab" href="#popular-tab-5">инструменты</a>
             <a class="tab products__tab" href="#popular-tab-6">аксессуары</a>
           </div>
         </div>
         <div class="tabs-container products__container">
-          <div id="popular-tab-1" class="tabs-content products__content tabs-content--active">
+          <div id="popular-tab-1" class="tabs-content products__content">
+            <div class="product-slider">
+              <div class="product-slider__item">
+                <div class="product-item__wrapper">
+                  <button class="product-item__favorite"></button>
+                  <button class="product-item__basket">
+                    <img src="images/icons/basket-white.svg" alt="">
+                  </button>
+                  <a class="product-item__notify-link" href="#">
+                    <span>Сообщить о поступлении</span>
+                  </a>
+                  <a class="product-item" href="#">
+                    <p class="product-item__hover-text">
+                      посмотреть товар
+                    </p>
+                    <img class="product-item__img" src="images/content/product-21.png" alt="">
+                    <h4 class="product-item__title">
+                      Трос тормоза YAMAHA GRIZZLY
+                    </h4>
+                    <p class="price product-item__price">
+                      1 090 ₽
+                    </p>
+                    <p class="product-item__notify-text">
+                      нет в наличии
+                    </p>
+                  </a>
+                </div>
+              </div>
+              <div class="product-slider__item">
+                <div class="product-item__wrapper">
+                  <button class="product-item__favorite"></button>
+                  <button class="product-item__basket">
+                    <img src="images/icons/basket-white.svg" alt="">
+                  </button>
+                  <a class="product-item__notify-link" href="#">
+                    <span>Сообщить о поступлении</span>
+                  </a>
+                  <a class="product-item product-item--sale" href="#">
+                    <p class="product-item__hover-text">
+                      посмотреть товар
+                    </p>
+                    <img class="product-item__img" src="images/content/product-23.png" alt="">
+                    <h4 class="product-item__title">
+                      Фонарь задний Тайга/Tiksy
+                    </h4>
+                    <p class="price product-item__price">
+                      970 ₽
+                    </p>
+                    <p class="product-item__notify-text">
+                      нет в наличии
+                    </p>
+                  </a>
+                </div>
+              </div>
+              <div class="product-slider__item">
+                <div class="product-item__wrapper">
+                  <button class="product-item__favorite"></button>
+                  <button class="product-item__basket">
+                    <img src="images/icons/basket-white.svg" alt="">
+                  </button>
+                  <a class="product-item__notify-link" href="#">
+                    <span>Сообщить о поступлении</span>
+                  </a>
+                  <a class="product-item" href="#">
+                    <p class="product-item__hover-text">
+                      посмотреть товар
+                    </p>
+                    <img class="product-item__img" src="images/content/product-22.png" alt="">
+                    <h4 class="product-item__title">
+                      Ремкомплект тормозного суппорта YAMAHA
+                    </h4>
+                    <p class="price product-item__price">
+                      1 570 ₽
+                    </p>
+                    <p class="product-item__notify-text">
+                      нет в наличии
+                    </p>
+                  </a>
+                </div>
+              </div>
+              <div class="product-slider__item">
+                <div class="product-item__wrapper">
+                  <button class="product-item__favorite"></button>
+                  <button class="product-item__basket">
+                    <img src="images/icons/basket-white.svg" alt="">
+                  </button>
+                  <a class="product-item__notify-link" href="#">
+                    <span>Сообщить о поступлении</span>
+                  </a>
+                  <a class="product-item product-item--sale" href="#">
+                    <p class="product-item__hover-text">
+                      посмотреть товар
+                    </p>
+                    <img class="product-item__img" src="images/content/product-24.png" alt="">
+                    <h4 class="product-item__title">
+                      Масло моторное BRP XPS
+                    </h4>
+                    <p class="price product-item__price">
+                      1 730 ₽
+                    </p>
+                    <p class="product-item__notify-text">
+                      нет в наличии
+                    </p>
+                  </a>
+                </div>
+              </div>
+              <div class="product-slider__item">
+                <div class="product-item__wrapper product-item__not-available">
+                  <button class="product-item__favorite"></button>
+                  <button class="product-item__basket">
+                    <img src="images/icons/basket-white.svg" alt="">
+                  </button>
+                  <a class="product-item__notify-link" href="#">
+                    <span>Сообщить о поступлении</span>
+                  </a>
+                  <a class="product-item" href="#">
+                    <p class="product-item__hover-text">
+                      посмотреть товар
+                    </p>
+                    <img class="product-item__img" src="images/content/product-25.png" alt="">
+                    <h4 class="product-item__title">
+                      Фильтр масляный SUZUKI
+                    </h4>
+                    <p class="price product-item__price">
+                      400 ₽
+                    </p>
+                    <p class="product-item__notify-text">
+                      нет в наличии
+                    </p>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div id="popular-tab-2" class="tabs-content products__content">
+            <div class="product-slider">
+              <div class="product-slider__item">
+                <div class="product-item__wrapper">
+                  <button class="product-item__favorite"></button>
+                  <button class="product-item__basket">
+                    <img src="images/icons/basket-white.svg" alt="">
+                  </button>
+                  <a class="product-item__notify-link" href="#">
+                    <span>Сообщить о поступлении</span>
+                  </a>
+                  <a class="product-item" href="#">
+                    <p class="product-item__hover-text">
+                      посмотреть товар
+                    </p>
+                    <img class="product-item__img" src="images/content/product-15.png" alt="">
+                    <h4 class="product-item__title">
+                      Лодочный мотор SEA-PRO T 30S&E
+                    </h4>
+                    <p class="price product-item__price">
+                      122 000 ₽
+                    </p>
+                    <p class="product-item__notify-text">
+                      нет в наличии
+                    </p>
+                  </a>
+                </div>
+              </div>
+              <div class="product-slider__item">
+                <div class="product-item__wrapper">
+                  <button class="product-item__favorite"></button>
+                  <button class="product-item__basket">
+                    <img src="images/icons/basket-white.svg" alt="">
+                  </button>
+                  <a class="product-item__notify-link" href="#">
+                    <span>Сообщить о поступлении</span>
+                  </a>
+                  <a class="product-item product-item--sale" href="#">
+                    <p class="product-item__hover-text">
+                      посмотреть товар
+                    </p>
+                    <img class="product-item__img" src="images/content/product-16.png" alt="">
+                    <h4 class="product-item__title">
+                      Лодочный мотор HONDA BF30DK2 SHGU
+                    </h4>
+                    <p class="price product-item__price">
+                      363 900 ₽
+                    </p>
+                    <p class="product-item__notify-text">
+                      нет в наличии
+                    </p>
+                  </a>
+                </div>
+              </div>
+              <div class="product-slider__item">
+                <div class="product-item__wrapper">
+                  <button class="product-item__favorite"></button>
+                  <button class="product-item__basket">
+                    <img src="images/icons/basket-white.svg" alt="">
+                  </button>
+                  <a class="product-item__notify-link" href="#">
+                    <span>Сообщить о поступлении</span>
+                  </a>
+                  <a class="product-item" href="#">
+                    <p class="product-item__hover-text">
+                      посмотреть товар
+                    </p>
+                    <img class="product-item__img" src="images/content/product-17.png" alt="">
+                    <h4 class="product-item__title">
+                      Лодочный мотор Yamaha F5 AMHS
+                    </h4>
+                    <p class="price product-item__price">
+                      81 700 ₽
+                    </p>
+                    <p class="product-item__notify-text">
+                      нет в наличии
+                    </p>
+                  </a>
+                </div>
+              </div>
+              <div class="product-slider__item">
+                <div class="product-item__wrapper">
+                  <button class="product-item__favorite"></button>
+                  <button class="product-item__basket">
+                    <img src="images/icons/basket-white.svg" alt="">
+                  </button>
+                  <a class="product-item__notify-link" href="#">
+                    <span>Сообщить о поступлении</span>
+                  </a>
+                  <a class="product-item product-item--sale" href="#">
+                    <p class="product-item__hover-text">
+                      посмотреть товар
+                    </p>
+                    <img class="product-item__img" src="images/content/product-18.png" alt="">
+                    <h4 class="product-item__title">
+                      Лодочный мотор Mercury 9.9 MH
+                    </h4>
+                    <p class="price product-item__price">
+                      99 900 ₽
+                    </p>
+                    <p class="product-item__notify-text">
+                      нет в наличии
+                    </p>
+                  </a>
+                </div>
+              </div>
+              <div class="product-slider__item">
+                <div class="product-item__wrapper">
+                  <button class="product-item__favorite"></button>
+                  <button class="product-item__basket">
+                    <img src="images/icons/basket-white.svg" alt="">
+                  </button>
+                  <a class="product-item__notify-link" href="#">
+                    <span>Сообщить о поступлении</span>
+                  </a>
+                  <a class="product-item" href="#">
+                    <p class="product-item__hover-text">
+                      посмотреть товар
+                    </p>
+                    <img class="product-item__img" src="images/content/product-19.png" alt="">
+                    <h4 class="product-item__title">
+                      Лодочный мотор Marlin MF 5 AMHS
+                    </h4>
+                    <p class="price product-item__price">
+                      53 350 ₽
+                    </p>
+                    <p class="product-item__notify-text">
+                      нет в наличии
+                    </p>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div id="popular-tab-4" class="tabs-content products__content tabs-content--active">
+            <div class="product-slider">
+              <div class="product-slider__item">
+                <div class="product-item__wrapper product-item__not-available">
+                  <button class="product-item__favorite"></button>
+                  <button class="product-item__basket">
+                    <img src="images/icons/basket-white.svg" alt="">
+                  </button>
+                  <a class="product-item__notify-link" href="#">
+                    <span>Сообщить о поступлении</span>
+                  </a>
+                  <a class="product-item" href="#">
+                    <p class="product-item__hover-text">
+                      посмотреть товар
+                    </p>
+                    <img class="product-item__img" src="images/content/product-5.png" alt="">
+                    <h4 class="product-item__title">
+                      BRP Audio-портативная система
+                    </h4>
+                    <p class="price product-item__price">
+                      9 800 ₽
+                    </p>
+                    <p class="product-item__notify-text">
+                      нет в наличии
+                    </p>
+                  </a>
+                </div>
+              </div>
+              <div class="product-slider__item">
+                <div class="product-item__wrapper">
+                  <button class="product-item__favorite"></button>
+                  <button class="product-item__basket">
+                    <img src="images/icons/basket-white.svg" alt="">
+                  </button>
+                  <a class="product-item__notify-link" href="#">
+                    <span>Сообщить о поступлении</span>
+                  </a>
+                  <a class="product-item" href="#">
+                    <p class="product-item__hover-text">
+                      посмотреть товар
+                    </p>
+                    <img class="product-item__img" src="images/content/product-6.png" alt="">
+                    <h4 class="product-item__title">
+                      Картплоттер Echomap Plus 62cv
+                    </h4>
+                    <p class="price product-item__price">
+                      66 800 ₽
+                    </p>
+                    <p class="product-item__notify-text">
+                      нет в наличии
+                    </p>
+                  </a>
+                </div>
+              </div>
+              <div class="product-slider__item">
+                <div class="product-item__wrapper">
+                  <button class="product-item__favorite"></button>
+                  <button class="product-item__basket">
+                    <img src="images/icons/basket-white.svg" alt="">
+                  </button>
+                  <a class="product-item__notify-link" href="#">
+                    <span>Сообщить о поступлении</span>
+                  </a>
+                  <a class="product-item product-item--sale" href="#">
+                    <p class="product-item__hover-text">
+                      посмотреть товар
+                    </p>
+                    <img class="product-item__img" src="images/content/product-9.png" alt="">
+                    <h4 class="product-item__title">
+                      Подводная камера для рыбалки
+                    </h4>
+                    <p class="price product-item__price">
+                      6 950 ₽
+                    </p>
+                    <p class="product-item__notify-text">
+                      нет в наличии
+                    </p>
+                  </a>
+                </div>
+              </div>
+              <div class="product-slider__item">
+                <div class="product-item__wrapper">
+                  <button class="product-item__favorite"></button>
+                  <button class="product-item__basket">
+                    <img src="images/icons/basket-white.svg" alt="">
+                  </button>
+                  <a class="product-item__notify-link" href="#">
+                    <span>Сообщить о поступлении</span>
+                  </a>
+                  <a class="product-item" href="#">
+                    <p class="product-item__hover-text">
+                      посмотреть товар
+                    </p>
+                    <img class="product-item__img" src="images/content/product-3.png" alt="">
+                    <h4 class="product-item__title">
+                      BRP Премиум Audio-система
+                    </h4>
+                    <p class="price product-item__price">
+                      86 200 ₽
+                    </p>
+                    <p class="product-item__notify-text">
+                      нет в наличии
+                    </p>
+                  </a>
+                </div>
+              </div>
+              <div class="product-slider__item">
+                <div class="product-item__wrapper product-item__not-available">
+                  <button class="product-item__favorite"></button>
+                  <button class="product-item__basket">
+                    <img src="images/icons/basket-white.svg" alt="">
+                  </button>
+                  <a class="product-item__notify-link" href="#">
+                    <span>Сообщить о поступлении</span>
+                  </a>
+                  <a class="product-item product-item--sale" href="#">
+                    <p class="product-item__hover-text">
+                      посмотреть товар
+                    </p>
+                    <img class="product-item__img" src="images/content/product-7.png" alt="">
+                    <h4 class="product-item__title">
+                      RF D.E.S.S.TM Ключ
+                    </h4>
+                    <p class="price product-item__price">
+                      9 800 ₽
+                    </p>
+                    <p class="product-item__notify-text">
+                      нет в наличии
+                    </p>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div id="popular-tab-5" class="tabs-content products__content">
+            <div class="product-slider">
+              <div class="product-slider__item">
+                <div class="product-item__wrapper">
+                  <button class="product-item__favorite"></button>
+                  <button class="product-item__basket">
+                    <img src="images/icons/basket-white.svg" alt="">
+                  </button>
+                  <a class="product-item__notify-link" href="#">
+                    <span>Сообщить о поступлении</span>
+                  </a>
+                  <a class="product-item product-item--sale" href="#">
+                    <p class="product-item__hover-text">
+                      посмотреть товар
+                    </p>
+                    <img class="product-item__img" src="images/content/product-26.png" alt="">
+                    <h4 class="product-item__title">
+                      Топливный бак 26Л
+                    </h4>
+                    <p class="price product-item__price">
+                      3 760 ₽
+                    </p>
+                    <p class="product-item__notify-text">
+                      нет в наличии
+                    </p>
+                  </a>
+                </div>
+              </div>
+              <div class="product-slider__item">
+                <div class="product-item__wrapper product-item__not-available">
+                  <button class="product-item__favorite"></button>
+                  <button class="product-item__basket">
+                    <img src="images/icons/basket-white.svg" alt="">
+                  </button>
+                  <a class="product-item__notify-link" href="#">
+                    <span>Сообщить о поступлении</span>
+                  </a>
+                  <a class="product-item" href="#">
+                    <p class="product-item__hover-text">
+                      посмотреть товар
+                    </p>
+                    <img class="product-item__img" src="images/content/product-27.png" alt="">
+                    <h4 class="product-item__title">
+                      Стартовый аккумулятор Deka 24M5
+                    </h4>
+                    <p class="price product-item__price">
+                      8 700 ₽
+                    </p>
+                    <p class="product-item__notify-text">
+                      нет в наличии
+                    </p>
+                  </a>
+                </div>
+              </div>
+              <div class="product-slider__item">
+                <div class="product-item__wrapper">
+                  <button class="product-item__favorite"></button>
+                  <button class="product-item__basket">
+                    <img src="images/icons/basket-white.svg" alt="">
+                  </button>
+                  <a class="product-item__notify-link" href="#">
+                    <span>Сообщить о поступлении</span>
+                  </a>
+                  <a class="product-item" href="#">
+                    <p class="product-item__hover-text">
+                      посмотреть товар
+                    </p>
+                    <img class="product-item__img" src="images/content/product-28.png" alt="">
+                    <h4 class="product-item__title">
+                      Лебедка с синтетическим тросом и радиопультом
+                    </h4>
+                    <p class="price product-item__price">
+                      20 000 ₽
+                    </p>
+                    <p class="product-item__notify-text">
+                      нет в наличии
+                    </p>
+                  </a>
+                </div>
+              </div>
+              <div class="product-slider__item">
+                <div class="product-item__wrapper">
+                  <button class="product-item__favorite"></button>
+                  <button class="product-item__basket">
+                    <img src="images/icons/basket-white.svg" alt="">
+                  </button>
+                  <a class="product-item__notify-link" href="#">
+                    <span>Сообщить о поступлении</span>
+                  </a>
+                  <a class="product-item product-item--sale" href="#">
+                    <p class="product-item__hover-text">
+                      посмотреть товар
+                    </p>
+                    <img class="product-item__img" src="images/content/product-29.png" alt="">
+                    <h4 class="product-item__title">
+                      Набор инструментов STELS
+                    </h4>
+                    <p class="price product-item__price">
+                      5 100 ₽
+                    </p>
+                    <p class="product-item__notify-text">
+                      нет в наличии
+                    </p>
+                  </a>
+                </div>
+              </div>
+              <div class="product-slider__item">
+                <div class="product-item__wrapper">
+                  <button class="product-item__favorite"></button>
+                  <button class="product-item__basket">
+                    <img src="images/icons/basket-white.svg" alt="">
+                  </button>
+                  <a class="product-item__notify-link" href="#">
+                    <span>Сообщить о поступлении</span>
+                  </a>
+                  <a class="product-item" href="#">
+                    <p class="product-item__hover-text">
+                      посмотреть товар
+                    </p>
+                    <img class="product-item__img" src="images/content/product-30.png" alt="">
+                    <h4 class="product-item__title">
+                      Указатель температуры масла 50-150
+                    </h4>
+                    <p class="price product-item__price">
+                      1 390 ₽
+                    </p>
+                    <p class="product-item__notify-text">
+                      нет в наличии
+                    </p>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div id="popular-tab-6" class="tabs-content products__content">
             <div class="product-slider">
               <div class="product-slider__item">
                 <div class="product-item__wrapper">
@@ -557,115 +1093,7 @@
                     </p>
                     <img class="product-item__img" src="images/content/product-4.png" alt="">
                     <h4 class="product-item__title">
-                      Водонепроницаемый Рюкзак
-                    </h4>
-                    <p class="price product-item__price">
-                      9 800 ₽
-                    </p>
-                    <p class="product-item__notify-text">
-                      нет в наличии
-                    </p>
-                  </a>
-                </div>
-              </div>
-              <div class="product-slider__item">
-                <div class="product-item__wrapper product-item__not-available">
-                  <button class="product-item__favorite"></button>
-                  <button class="product-item__basket">
-                    <img src="images/icons/basket-white.svg" alt="">
-                  </button>
-                  <a class="product-item__notify-link" href="#">
-                    <span>Сообщить о поступлении</span>
-                  </a>
-                  <a class="product-item product-item--sale" href="#">
-                    <p class="product-item__hover-text">
-                      посмотреть товар
-                    </p>
-                    <img class="product-item__img" src="images/content/product-1.png" alt="">
-                    <h4 class="product-item__title">
-                      Водонепроницаемый Рюкзак
-                    </h4>
-                    <p class="price product-item__price">
-                      9 800 ₽
-                    </p>
-                    <p class="product-item__notify-text">
-                      нет в наличии
-                    </p>
-                  </a>
-                </div>
-              </div>
-              <div class="product-slider__item">
-                <div class="product-item__wrapper product-item__not-available">
-                  <button class="product-item__favorite"></button>
-                  <button class="product-item__basket">
-                    <img src="images/icons/basket-white.svg" alt="">
-                  </button>
-                  <a class="product-item__notify-link" href="#">
-                    <span>Сообщить о поступлении</span>
-                  </a>
-                  <a class="product-item product-item--sale" href="#">
-                    <p class="product-item__hover-text">
-                      посмотреть товар
-                    </p>
-                    <img class="product-item__img" src="images/content/product-1.png" alt="">
-                    <h4 class="product-item__title">
-                      Водонепроницаемый Рюкзак
-                    </h4>
-                    <p class="price product-item__price">
-                      9 800 ₽
-                    </p>
-                    <p class="product-item__notify-text">
-                      нет в наличии
-                    </p>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div id="popular-tab-2" class="tabs-content products__content">
-            <div class="product-slider">
-              <div class="product-slider__item">
-                <div class="product-item__wrapper">
-                  <button class="product-item__favorite"></button>
-                  <button class="product-item__basket">
-                    <img src="images/icons/basket-white.svg" alt="">
-                  </button>
-                  <a class="product-item__notify-link" href="#">
-                    <span>Сообщить о поступлении</span>
-                  </a>
-                  <a class="product-item" href="#">
-                    <p class="product-item__hover-text">
-                      посмотреть товар
-                    </p>
-                    <img class="product-item__img" src="images/content/product-1.png" alt="">
-                    <h4 class="product-item__title">
-                      Водонепроницаемый Рюкзак
-                    </h4>
-                    <p class="price product-item__price">
-                      9 800 ₽
-                    </p>
-                    <p class="product-item__notify-text">
-                      нет в наличии
-                    </p>
-                  </a>
-                </div>
-              </div>
-              <div class="product-slider__item">
-                <div class="product-item__wrapper">
-                  <button class="product-item__favorite"></button>
-                  <button class="product-item__basket">
-                    <img src="images/icons/basket-white.svg" alt="">
-                  </button>
-                  <a class="product-item__notify-link" href="#">
-                    <span>Сообщить о поступлении</span>
-                  </a>
-                  <a class="product-item product-item--sale" href="#">
-                    <p class="product-item__hover-text">
-                      посмотреть товар
-                    </p>
-                    <img class="product-item__img" src="images/content/product-1.png" alt="">
-                    <h4 class="product-item__title">
-                      Водонепроницаемый Рюкзак
+                      Спасательное снаряжение
                     </h4>
                     <p class="price product-item__price">
                       9 800 ₽
@@ -689,12 +1117,12 @@
                     <p class="product-item__hover-text">
                       посмотреть товар
                     </p>
-                    <img class="product-item__img" src="images/content/product-1.png" alt="">
+                    <img class="product-item__img" src="images/content/product-20.png" alt="">
                     <h4 class="product-item__title">
-                      Водонепроницаемый Рюкзак
+                      Наклейка Yamaha
                     </h4>
                     <p class="price product-item__price">
-                      9 800 ₽
+                      40 ₽
                     </p>
                     <p class="product-item__notify-text">
                       нет в наличии
@@ -703,7 +1131,7 @@
                 </div>
               </div>
               <div class="product-slider__item">
-                <div class="product-item__wrapper product-item__not-available">
+                <div class="product-item__wrapper">
                   <button class="product-item__favorite"></button>
                   <button class="product-item__basket">
                     <img src="images/icons/basket-white.svg" alt="">
@@ -715,12 +1143,12 @@
                     <p class="product-item__hover-text">
                       посмотреть товар
                     </p>
-                    <img class="product-item__img" src="images/content/product-1.png" alt="">
+                    <img class="product-item__img" src="images/content/product-8.png" alt="">
                     <h4 class="product-item__title">
-                      Водонепроницаемый Рюкзак
+                      Мужской костюм 3мм
                     </h4>
                     <p class="price product-item__price">
-                      9 800 ₽
+                      7 000 ₽
                     </p>
                     <p class="product-item__notify-text">
                       нет в наличии
@@ -730,10 +1158,6 @@
               </div>
             </div>
           </div>
-          <div id="popular-tab-3" class="tabs-content products__content">3</div>
-          <div id="popular-tab-4" class="tabs-content products__content">4</div>
-          <div id="popular-tab-5" class="tabs-content products__content">5</div>
-          <div id="popular-tab-6" class="tabs-content products__content">6</div>
         </div>
       </div>
     </div>
